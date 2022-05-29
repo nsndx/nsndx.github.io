@@ -1,24 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nguyễn Đình Tài</title>
+    <!-- font web -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 
-
-
+    <!-- style css -->
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/reponsive.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header>Đang làm</header>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html"><i class="fa-brands fa-accusoft"></i></a>
+            </div>
+            <div class="nav">
+                <a href="./index.html">Trang chủ</a>
+                <a href="#">Html-css</a>
+                <a href="#">Javascript</a>
+                <a href="#">Ract js</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="hours">
+                <span id="hours"></span>
+            </div>
+            <div class="day">
+                <span id="day"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="cv">
+        <div class="container">
+            <div class="cv_left">
+                <div class="name">
+                    <div class="title">
+                        <img src="./img/anh.jpg" alt="">
+                        <p class="title1"><span class="title2">NGUYỄN ĐÌNH TÀI</span></p>
+                    </div>
+                </div>
+                <div class="thongtin">
+                    <div class="title">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <p class="title1"><span class="title2">THÔNG TIN</span></p>
+                    </div>
+                    <div class="main">
+                        <table>
+                            <tr>
+                                <td>Giới tính:</td>
+                                <td>Nam</td>
+                            </tr>
+                            <tr>
+                                <td>Ngày sinh:</td>
+                                <td>27/02/1993</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>dinhtai0293@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Điện thoại:</td>
+                                <td>0989954328</td>
+                            </tr>
+                            <tr>
+                                <td>Địa chỉ:</td>
+                                <td>Quan Hoa, Cầu Giấy, Hà Nội</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="kinang">
+                    <div class="title">
+                        <i class="fa-solid fa-chart-column"></i>
+                        <p class="title1"><span class="title2">KỸ NĂNG</span></p>
+                    </div>
+                    <div class="main">
+                        <ul class="ul">
+                            <li class="li">Html, CSS, Javascript</li>
+                            <li class="li">Jquery, bootstrap</li>
+                            <li class="li">Github</li>
+                            <li class="li">Làm việc nhóm</li>
+                            <li class="li">Tiếng anh cơ bản</li>
+                            <li class="li">...</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sothich">
+                    <div class="title">
+                        <i class="fa-solid fa-face-smile"></i>
+                        <p class="title1"><span class="title2">SỞ THÍCH</span></p>
+                    </div>
+                    <div class="main">
+                        <ul class="ul">
+                            <li class="li">Tìm hiểu công nghệ mới</li>
+                            <li class="li">Nghe nhạc</li>
+                            <li class="li">Xem phim</li>
+                            <li class="li">Chơi thể thao</li>
+                            <li class="li">...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cv_right">
+                <div class="muctieu">
+                    <div class="title">
+                        <i class="fa-solid fa-folder"></i>
+                        <p class="title1"><span class="title2">MỤC TIÊU</span></p>
+                    </div>
+                    <div class="main">
+                        <ul class="ul">
+                            <li class="li">Làm việc trong môi trường chuyên nghiệp.</li>
+                            <li class="li">Được hưởng các chế độ theo luật lao động.</li>
+                            <li class="li">Tích luỹ thêm nhiều kinh nghiệm cho công việc được hiệu quả và nhanh chóng.
+                            </li>
+                            <li class="li">Đóng góp được một phần công sức cho sự phát triển của công ty.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hocvan">
+                    <div class="title">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <p class="title1"><span class="title2">HỌC VẤN</span></p>
+                    </div>
+                    <div class="main">
+                        <ul class="ul">
+                            <li class="li"><span>09/2012 - 01/2017: </span><b>Đại học GTVT Hà Nội.</b> </li>
+                            <li class="li"><span>Chuyên ngành: </span><b>Xây dựng công trình giao thông.</b> </li>
+                            <li class="li"><span>Trình độ: </span><b>Đại học.</b> </li>
+                            <li class="li"><span>Loại tốt nghiệp: </span><b>Khá.</b> </li>
+                            <li class="li"><span>03/2022 - 05/2022: </span><b>Tham gia khoá Front-End cơ bản tại Học với
+                                    chuyên
+                                    gia.</b> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kinhnghiem">
+                    <div class="title">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <p class="title1"><span class="title2">KINH NGHIỆM</span></p>
+                    </div>
+                    <div class="main">
+                        <ul class="ul">
+                            <li class="li"><span>03/2017 - 03/2022: </span><b>Trợ lý kiểm toán viên.</b> </li>
+                            <li class="li"><span>04/2022 - nay: </span><b>Học lập trình web</b> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="duandalam">
+                    <div class="title">
+                        <i class="fab fa-r-project"></i>
+                        <p class="title1"><span class="title2">DỰ ÁN ĐÃ LÀM</span></p>
+                    </div>
+                    <div class="main">
+                        <ul class="ul">
+                            <li class="li"> <span>Name: Piroll 5 page (<a href="https://nsndx.github.io/BT_Piroll/"
+                                        target="_blank">Link page</a> - <a href="https://github.com/nsndx/BT_Piroll"
+                                        target="_blank">Link code</a>)</span></li>
+                            <li class="li"> <span>Name: Samar 1 page (<a href="https://nsndx.github.io/BT_Samar/"
+                                        target="_blank">Link page</a> - <a href="https://github.com/nsndx/BT_Samar"
+                                        target="_blank">Link code</a>)</span></li>
+                            <li class="li"> <span>Name: Masterwork 1 page (<a
+                                        href="https://nsndx.github.io/BT_capstone/" target="_blank">Link page</a> - <a
+                                        href="https://github.com/nsndx/BT_capstone" target="_blank">Link
+                                        code</a>)</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
     <script src="./js/main.js"></script>
 </body>
+
 </html>
