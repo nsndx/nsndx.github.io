@@ -20,17 +20,21 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container header_content">
             <div class="logo">
                 <a href="./index.html"><i class="fa-brands fa-accusoft"></i></a>
             </div>
-            <div class="nav">
+            <div class="nav" id="nav">
                 <a href="./index.html">Trang chủ</a>
                 <a href="#">Html-css</a>
                 <a href="#">Javascript</a>
                 <a href="#">Ract js</a>
                 <a href="#">Contact</a>
             </div>
+            <button onclick="navbar()">
+                <i class="fa-solid fa-bars" id="navopen"></i>
+                <i class="fa-solid fa-xmark" id="navclose"></i>
+            </button>
         </div>
     </header>
 

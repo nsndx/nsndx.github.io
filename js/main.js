@@ -1,3 +1,22 @@
+// header
+function navbar() {
+    var x = document.getElementById('nav')
+    var y = document.getElementById('navopen')
+    var z = document.getElementById('navclose')
+    if (x.style.display == 'none') {
+        x.style.display = 'flex'
+        y.style.display = 'none'
+        z.style.display = 'inline-block'
+    } else {
+        x.style.display = 'none'
+        y.style.display = 'inline-block'
+        z.style.display = 'none'
+    }
+}
+
+
+
+
 // home->banner
 function clock() {
     var time = new Date()
