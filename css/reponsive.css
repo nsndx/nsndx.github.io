@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   /* header */
   .header_content button {
-    display: inline-block;
+    display: block;
   }
   .header_content .nav {
     position: absolute;
@@ -10,10 +10,27 @@
     display: none;
     flex-direction: column;
     background-color: var(--color3);
-    box-shadow: 0 3px 5px var(--color1);
+    box-shadow: 0 1px 5px var(--color1);
     border-radius: 6px;
+    animation: navbar 0.5s;
   }
-  .header_content .nav a{
-      margin: 10px 20px;
+  @keyframes navbar {
+    from {
+      top: 0;
+      right: 0;
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  .header_content .nav a {
+    margin: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header_content .nav {
+    display: block !important;
   }
 }

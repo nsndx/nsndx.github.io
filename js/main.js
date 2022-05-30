@@ -1,20 +1,19 @@
 // header
-function navbar() {
-    var x = document.getElementById('nav')
-    var y = document.getElementById('navopen')
-    var z = document.getElementById('navclose')
-    if (x.style.display == 'none') {
+var x = document.querySelector('.nav')
+var y = document.querySelector('.fa-bars')
+var z = document.querySelector('.fa-xmark')
+var btn = document.querySelector('.btn')
+btn.addEventListener('click', function () {
+    if (x.style.display == 'flex') {
+        x.style.display = 'none'
+        y.style.display = 'block'
+        z.style.display = 'none'
+    } else{        
         x.style.display = 'flex'
         y.style.display = 'none'
-        z.style.display = 'inline-block'
-    } else {
-        x.style.display = 'none'
-        y.style.display = 'inline-block'
-        z.style.display = 'none'
+        z.style.display = 'block'
     }
-}
-
-
+})
 
 
 // home->banner
