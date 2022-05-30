@@ -17,7 +17,7 @@
   @keyframes navbar {
     from {
       top: 0;
-      right: 0;
+      right: -10px;
       transform: scale(0);
     }
     to {
@@ -25,7 +25,8 @@
     }
   }
   .header_content .nav a {
-    margin: 10px 20px;
+    margin:0;
+    padding: 10px 20px;
   }
 }
 
