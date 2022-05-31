@@ -6,6 +6,7 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
+  line-height: 1.5;
 }
 :root {
   --color1: #1b1d2d;
@@ -53,6 +54,7 @@ header {
 .header_content .nav a{
   color: var(--color1);
   font-size: var(--font-size2);
+  font-weight: 500;
   text-decoration: none;
   margin-left: 20px;
   transition: all 0.3s;

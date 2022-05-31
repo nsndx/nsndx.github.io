@@ -16,7 +16,7 @@ btn.addEventListener('click', function () {
 })
 
 
-// home->banner
+// carousel
 function clock() {
     var time = new Date()
     var day = time.getDay() + 1

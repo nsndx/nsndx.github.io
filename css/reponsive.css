@@ -25,12 +25,21 @@
     }
   }
   .header_content .nav a {
-    margin:0;
+    margin: 0;
     padding: 10px 20px;
   }
+  /* cv */
+  .cv_content .cv_left,
+  .cv_content .cv_right {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+
 }
 
 @media screen and (min-width: 769px) {
+  /* header */
   .header_content .nav {
     display: block !important;
   }
