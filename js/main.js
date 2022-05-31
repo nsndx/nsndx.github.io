@@ -44,6 +44,6 @@ function clock() {
         document.getElementById('day').innerHTML = 'Thứ ' + day + ', ' + 'Ngày ' + date + ', ' + 'Tháng ' + month + ', ' + 'Năm ' + year
     }
 
-    setInterval(clock, 1000)
+    setTimeout(clock, 1000)
 }
 clock()

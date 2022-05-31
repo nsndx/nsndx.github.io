@@ -22,8 +22,9 @@ body {
 }
 /* header */
 header {
-  padding: 30px 0;
-  background-color: #ddd;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
 }
 .header_content {
   display: flex;
@@ -54,15 +55,17 @@ header {
   }
 }
 .header_content .nav a {
-  color: var(--color1);
+  color: var(--color2);
   font-size: var(--font-size2);
   font-weight: 500;
   text-decoration: none;
   margin-left: 20px;
-  transition: all 0.3s;
+  display: inline-block;
+  transition: all 0.2s;
 }
 .header_content .nav a:hover {
-  color: var(--color2);
+  transform: scale(1.1);
+  color: var(--color3);
 }
 .header_content button {
   display: none;
