@@ -1,8 +1,8 @@
 // header
-var x = document.querySelector('.nav')
-var y = document.querySelector('.fa-bars')
-var z = document.querySelector('.fa-xmark')
-var btn = document.querySelector('.btn')
+var x = document.querySelector('.header_content .nav')
+var y = document.querySelector('.header_content .fa-bars')
+var z = document.querySelector('.header_content .fa-xmark')
+var btn = document.querySelector('.header_content .btn')
 btn.addEventListener('click', function () {
     if (x.style.display == 'flex') {
         x.style.display = 'none'
