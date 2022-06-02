@@ -1,27 +1,28 @@
 @media screen and (max-width: 768px) {
+  /* ---------------------index------------------- */
   /* header */
   .header_content button {
     display: block;
   }
   .header_content .nav {
     position: absolute;
-    top: 80px;
+    top: 90px;
+    left: 20px;
     right: 20px;
     display: none;
     flex-direction: column;
     background-color: var(--color1);
     box-shadow: 0 1px 5px var(--color1);
     border-radius: 6px;
-    animation: navbar 0.5s;
+    text-align: center;
+    animation: navbar 0.3s;
   }
   @keyframes navbar {
     from {
       top: 0;
-      right: -10px;
       transform: scale(0);
     }
     to {
-      transform: scale(1);
     }
   }
   .header_content .nav a {
@@ -38,6 +39,7 @@
 }
 
 @media screen and (min-width: 769px) {
+  /* ---------------------index------------------- */
   /* header */
   .header_content .nav {
     display: block !important;
