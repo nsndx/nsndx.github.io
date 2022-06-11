@@ -1,0 +1,39 @@
+.html {
+  margin: 10px 0;
+}
+.html .show,
+.css .show {
+  display: block;
+}
+.html_main,
+.css_main,
+.content {
+  display: none;
+}
+.main {
+  border-bottom: 1px solid #aaa;
+  padding: 5px 10px;
+}
+.html h1,
+.html h3,
+.css h1,
+.css h3 {
+  cursor: pointer;
+}
+.html h1,
+.css h1 {
+  background-color: var(--color2);
+  text-align: center;
+  box-shadow: 1px -3px 5px #000;
+}
+.html ol,
+.css ol {
+  padding: 0 20px;
+  list-style-position: inside;
+}
+.html ul,
+.css ul {
+  list-style-type:disclosure-closed;
+  padding: 0 10px;
+}
+

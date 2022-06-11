@@ -36,6 +36,7 @@
     padding: 0;
     border: none;
   }
+  
 }
 
 @media (min-width: 769px) {
@@ -43,5 +44,16 @@
   /* header */
   .header_content .nav {
     display: block !important;
+  }
+}
+@media (max-width: 576px){
+  /* ---------------------htmlCSS------------------- */
+  .html ol,
+  .css ol {
+    padding: 0;
+  }
+  .html ul,
+  .css ul {
+    padding: 0;
   }
 }

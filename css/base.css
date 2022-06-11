@@ -80,7 +80,7 @@ header {
 .header_content button .fa-xmark {
   display: none;
 }
-.header_content .nav .active{
+.header_content .nav .active {
   transform: scale(1.3);
   color: #fff;
 }
