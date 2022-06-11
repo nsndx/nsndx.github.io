@@ -36,18 +36,18 @@
     padding: 0;
     border: none;
   }
-  
-}
-
-@media (min-width: 769px) {
-  /* ---------------------index------------------- */
-  /* header */
-  .header_content .nav {
-    display: block !important;
+   /* ---------------------htmlCSS------------------- */
+  .html,
+  .css {
+    width: 100%;
   }
-}
-@media (max-width: 576px){
-  /* ---------------------htmlCSS------------------- */
+  .html {
+    padding: 0;
+    border: none;
+  }
+  .css {
+    padding: 20px 0 0 0;
+  }
   .html ol,
   .css ol {
     padding: 0;
@@ -55,5 +55,13 @@
   .html ul,
   .css ul {
     padding: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  /* ---------------------index------------------- */
+  /* header */
+  .header_content .nav {
+    display: block !important;
   }
 }

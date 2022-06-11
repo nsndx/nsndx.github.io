@@ -1,12 +1,24 @@
-.html {
-  margin: 10px 0;
+.html_css{
+  padding: 20px 0;
+}
+.html_css .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.html, .css {
+ width: 50%;
+}
+.html{
+  padding-right: 10px;
+  border-right: 1px solid;
+}
+.css{
+  padding-left: 10px;
 }
 .html .show,
 .css .show {
   display: block;
 }
-.html_main,
-.css_main,
 .content {
   display: none;
 }
