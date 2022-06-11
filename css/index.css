@@ -37,22 +37,6 @@
 .main ul li {
   list-style-position: inside;
 }
-/* carousel */
-.carousel {
-  padding: 120px 0 30px;
-  background-color: #7f5a83;
-  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-}
-.carousel .hours {
-  font-size: var(--font-size1);
-  color: var(--color2);
-  font-weight: 700;
-}
-.carousel .day {
-  font-size: var(--font-size2);
-  color: var(--color2);
-  font-weight: 500;
-}
 
 /* cv */
 .cv {

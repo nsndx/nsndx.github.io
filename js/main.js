@@ -15,7 +15,6 @@ btn.addEventListener('click', function () {
     }
 })
 
-
 // carousel
 function clock() {
     var time = new Date()
