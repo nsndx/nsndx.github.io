@@ -4,7 +4,7 @@ var content = document.querySelectorAll('.html .content')
 html_h3[0].onclick = function () {
     content[0].classList.toggle('show')
 }
-content[0].onclick = function(){
+content[0].onclick = function () {
     content[0].classList.toggle('show')
 }
 html_h3[1].onclick = function () {
@@ -42,6 +42,42 @@ html_h3[6].onclick = function () {
 }
 content[6].onclick = function () {
     content[6].classList.toggle('show')
+}
+html_h3[7].onclick = function () {
+    content[7].classList.toggle('show')
+}
+content[7].onclick = function () {
+    content[7].classList.toggle('show')
+}
+html_h3[8].onclick = function () {
+    content[8].classList.toggle('show')
+}
+content[8].onclick = function () {
+    content[8].classList.toggle('show')
+}
+html_h3[9].onclick = function () {
+    content[9].classList.toggle('show')
+}
+content[9].onclick = function () {
+    content[9].classList.toggle('show')
+}
+html_h3[10].onclick = function () {
+    content[10].classList.toggle('show')
+}
+content[10].onclick = function () {
+    content[10].classList.toggle('show')
+}
+html_h3[11].onclick = function () {
+    content[11].classList.toggle('show')
+}
+content[11].onclick = function () {
+    content[11].classList.toggle('show')
+}
+html_h3[12].onclick = function () {
+    content[12].classList.toggle('show')
+}
+content[12].onclick = function () {
+    content[12].classList.toggle('show')
 }
 
 //css

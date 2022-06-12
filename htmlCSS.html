@@ -92,8 +92,8 @@
                 <div class="main">
                     <h3>Thẻ ảnh</h3>
                     <div class="content">
-                        <p>img (inline)</p>
-                        <ol>Thuộc tính:
+                        <p>img (inline) - Thuộc tính:</p>
+                        <ol>
                             <li>src=""</li>
                             <li>alt=""</li>
                         </ol>
@@ -102,8 +102,8 @@
                 <div class="main">
                     <h3>Thẻ link</h3>
                     <div class="content">
-                        <p>a (inline)</p>
-                        <ol>Thuộc tính:
+                        <p>a (inline) - Thuộc tính:</p>
+                        <ol>
                             <li>href=""
                                 <ul>
                                     <li>href="tel:0123456" link đến số điện thoại</li>
@@ -120,8 +120,121 @@
                         </ol>
                     </div>
                 </div>
+                <div class="main">
+                    <h3>Thẻ danh sách</h3>
+                    <div class="content">
+                        <p>ul(li), ol(li), dl(dt, dd) (block)</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Thẻ bảng</h3>
+                    <div class="content">
+                        <p>table (block) - Thuộc tính:</p>
+                        <ol>
+                            <li>cellspacing="0" khoảng cách các đường viền</li>
+                            <li>cellpadding="10px"</li>
+                            <li>border="1"</li>
+                            <li>align="center"</li>
+                        </ol>
+                        <p>table -> tr(tạo hàng) -> (th tạo cột tiêu đề, td tạo cột nội dung)</p>
+                        <ol> th, td có thuộc tính:
+                            <li>colspan="" gộp cột</li>
+                            <li>rowspan="" gộp hàng</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Thẻ form</h3>
+                    <div class="content">
+                        <p>form (block) - Có các thẻ con:</p>
+                        <ol>
+                            <li>label (inline) - Thuộc tính:
+                                <ol>
+                                    <li>for="id" để liên kết với thẻ input có tên id là "id"</li>
+                                </ol>
+                            </li>
+                            <li>input (inline-block) - Thuộc tính:
+                                <ol>
+                                    <li>type=""
+                                        <ul>
+                                            <li>checkbox: ô tích nhiều</li>
+                                            <li>radio: ô cho chọn 1 khi đặt cùng thuộc tính name</li>
+                                            <li>text: nhập chữ</li>
+                                            <li>number: nhập số</li>
+                                            <li>password: nhập mật khẩu</li>
+                                            <li>email: nhập email</li>
+                                            <li>tel: nhập số điện thoại kèm pattern="[0-9]{3}-[0-9]{6}" định dạng số đt
+                                            </li>
+                                            <li>date: nhập ngày tháng</li>
+                                            <li>file: nút để up file</li>
+                                            <li>color: chọn màu</li>
+                                            <li>range: thanh kéo trượt</li>
+                                            <li>reset: nút xoá trắng form</li>
+                                            <li>submit: nút gửi form chỉ có 1 cái sẽ load lại trang</li>
+                                            <li>button: nút gửi form không load lại trang</li>
+                                        </ul>
+                                    </li>
+                                    <li>placeholder="" nội dung chữ chìm hiện lên</li>
+                                    <li>required bắt buộc điền vào ô input</li>
+                                    <li>readonly, disabled chỉ đọc thông tin ô input và không thể chỉnh sửa</li>
+                                    <li>autofocus trỏ chuột luôn nằm trong ô input</li>
+                                    <li>maxlength="", minlength="" giới hạn kí tự gõ</li>
+                                    <li>min="", max"" dùng cho nút chọn, có thể là số, ngày tháng,..</li>
+                                </ol>
+                            </li>
+                            <li>textarea (inline-block) - Thuộc tính:
+                                <ol>
+                                    <li>resize="none" cố định kích thước</li>
+                                    <li>textarea::placeholder css chỉnh thuộc tính placeholder</li>
+                                </ol>
+                            </li>
+                            <li>select (inline) -> option (optgroup --> option) - Thuộc tính:
+                                <ol>
+                                    <li>multiple để chọn nhiều lựa chọn</li>
+                                    <li>zise="" để chọn số lượng hiện thị</li>
+                                    <li>selected của option để hiển thị đầu tiên của danh sách</li>
+                                </ol>
+                            </li>
+                            <li>fieldset (block) -> legend nội dung - Gộp các nhóm input</li>
+                            <li>button (inline-block) - kèm theo thuộc tính type="button, submit hoặc reset", mặc định
+                                type = "submit"</li>
+                            <li>datalist chỉ định danh sách các tùy chọn được xác định trước cho phần tử input - ít dùng
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Thẻ video</h3>
+                    <div class="content">
+                        <p>video (inline) - Thuộc tính:</p>
+                        <ol>
+                            <li>src=""</li>
+                            <li>controls hiện thanh điều kiển</li>
+                            <li>autoplay tự chạy khi mở web</li>
+                            <li>loop để lặp lại bài</li>
+                            <li>width, height</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Thẻ audio</h3>
+                    <div class="content">
+                        <p>audio (inline) - Thuộc tính:</p>
+                        <ol>
+                            <li>src=""</li>
+                            <li>controls hiện thanh điều kiển</li>
+                            <li>autoplay tự chạy khi mở web</li>
+                            <li>loop để lặp lại bài</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Thẻ nhúng</h3>
+                    <div class="content">
+                        <p>iframe (inline) - Dùng để nhúng html khác vào, lấy link là mã nhúng từ web</p>
+                    </div>
+                </div>
             </div>
-
             <!-- //html -->
             <!-- css -->
             <div class="css">
@@ -132,12 +245,12 @@
                         <p>inline, internal, external</p>
                     </div>
                 </div>
-
             </div>
             <!-- //css -->
-
         </div>
     </section>
+    <!-- //content -->
+
 
     <script src="./js/main.js"></script>
     <script src="./js/htmlCSS.js"></script>
