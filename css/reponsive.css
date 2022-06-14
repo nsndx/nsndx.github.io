@@ -50,11 +50,11 @@
   }
   .html ol,
   .css ol {
-    padding: 0;
+    padding-right: 0;
   }
   .html ul,
   .css ul {
-    padding: 0;
+    padding-right: 0;
   }
 }
 

@@ -245,6 +245,194 @@
                         <p>inline, internal, external</p>
                     </div>
                 </div>
+                <div class="main">
+                    <h3>CSS selector</h3>
+                    <div class="content">
+                        <p>* chọn tất cả thẻ</p>
+                        <p>element, class, id</p>
+                        <p>.class1.class2 Chọn nhiều class</p>
+                        <p>div > p Chọn tất cả thẻ p là con trực tiếp trong div</p>
+                        <p>div + p Chọn thẻ p đứng ngay sau div</p>
+                        <p>div ~ p Chọn tất cả p đứng sau div</p>
+                        <p>:first-child, :last-child, :nth-child()</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Độ ưu tiên</h3>
+                    <div class="content">
+                        <p>Internal, external Ưu tiên cho cái nào đặt dưới</p>
+                        <p>Thẻ: 1, class: 10, id: 100, inline: 1000, !important ưu tiên nhất</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Đơn vị</h3>
+                    <div class="content">
+                        <p>Absolute: px</p>
+                        <p>Relative có:</p>
+                        <ol>
+                            <li>% phụ thuộc vào thẻ cha</li>
+                            <li>rem phụ thuộc vào thuộc tính đó được setup trong thẻ html, 1 rem = giá trị được setup
+                            </li>
+                            <li>em: phụ thuộc vào thuộc tính đó được setup trong thẻ gần nhất, 1 em = giá trị được setup
+                            </li>
+                            <li>vh, vw v=viewport, h=height, w=width phụ thuộc khung nhìn</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Pseudo-elements (phần tử giả)</h3>
+                    <div class="content">
+                        <p>:before</p>
+                        <p>:after</p>
+                        <p>:first-line - dòng đầu tiên</p>
+                        <p>:first-letter - chữ đầu tiên</p>
+                        <p>:selection - khi bôi chuột vào sẽ ăn thuộc tính</p>
+                        <p>:marker</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Pseudo-classes (lớp giả)</h3>
+                    <div class="content">
+                        <p>:hover - di chuột vào sẽ thực hiện</p>
+                        <p>:forcus - dùng cho input</p>
+                        <p>:active - nhấn giữ chuột trái sẽ thực hiện</p>
+                        <p>:visited - để chọn các liên kết đã truy cập.</p>
+                        <p>:first-child, :last-child, :nth-child()</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Đặt biến variable</h3>
+                    <div class="content">
+                        <p>:root{...}</p>
+                        <ol>
+                            <li>setup; --tên: giá trị(vd: --color1: red;)</li>
+                            <li>lấy ra; thuộc tính: var(tên)</li>
+                        </ol>
+                        <p>có thể sử dụng trong mỗi selectors thẻ, không cần đặt trong :root với setup là --tên: giá trị
+                        </p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Function</h3>
+                    <div class="content">
+                        <p>var(), linear-gradient(), rgba(), rgb()</p>
+                        <p>calc() tính toán giá trị + - * /</p>
+                        <p>attr() dùng phần tử giả để truyền giá trị thuộc tính content: attr(thuộc tính)</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Text (chữ)</h3>
+                    <div class="content">
+                        <p>font-family</p>
+                        <ol>
+                            <li>font từ file down về VD: @font-face {font-family: Thuphap1; src:
+                                url(./VNI-Thuphap1.ttf);}</li>
+                            <li>Font chữ lấy từ fontgoogle: vào fontgoole chọn Regular 400 light300 bold 700, link CDN
+                                vào</li>
+                            <li>Font icon: lấy link CND từ web hoặc down về và sử dụng</li>
+                        </ol>
+                        <p>text-align</p>
+                        <p>text-decoraticon</p>
+                        <p>text-transform</p>
+                        <p>text-indent thụt vào chữ dòng đầu văn bản</p>
+                        <p>font-weight</p>
+                        <p>font-style</p>
+                        <p>letter-spacing</p>
+                        <p>word-spacing</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Hiệu ứng</h3>
+                    <div class="content">
+                        <p>background:</p>
+                        <ol>
+                            <li>transparent: làm trong suốt hình nền</li>
+                            <li>background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%) màu chuyển</li>
+                            <li>background-image: linear-gradient(
+                                to right,
+                                rgba(255, 255, 255, 0.98),
+                                rgba(255, 255, 255, 0.92)
+                                ),
+                                url(../img/carousel/banner.jpg); background-repeat: no-repeat, no-repeat, no-repeat;
+                                background-position: center;
+                                background-attachment: fixed;
+                                background-size: cover; sử dụng đè màu lên hình nền</li>
+                        </ol>
+                        <p>scroll-behavior:"smooth" đặt ở thẻ html để trượt mượt</p>
+                        <p>visibility: hidden ngăn tab vào</p>
+                        <p>opacity: độ trong suốt</p>
+                        <p>text-shadow: x y blur color;</p>
+                        <p>box-shadow: x y blur spread color;</p>
+                        <p>transition: all 2s;</p>
+                        <p>transform: translate(x y), rolate(deg), scale()</p>
+                        <p>animation</p>
+                        <ol>
+                            <li>@keyframes name{
+                                from{} to{} hoặc %{kèm position}
+                                }</li>
+                            <li>animation: name duration timing-function delay iteration-count direction fill-mode;</li>
+                            <li>Thư viện
+                                <ul>
+                                    <li>Count Up</li>
+                                    <li>Lightbox</li>
+                                    <li>owl carousel</li>
+                                    <li>back to top</li>
+                                    <li>slick, swiper</li>
+                                    <li>wow</li>
+                                    <li>animate</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="main">
+                    <h3>Layout</h3>
+                    <div class="content">
+                        <p>boxsizing: border-box;</p>
+                        <p>Box modal: content -> padding -> border -> margin</p>
+                        <p>position:</p>
+                        <ol>
+                            <li>relative</li>
+                            <li>absolute</li>
+                            <li>fixed</li>
+                        </ol>
+                        <p>float: dùng cho thẻ con kèm thêm (div class="clear" có css clear: both;) ở cuối cùng</p>
+                        <p>flexbox</p>
+                        <ol>
+                            <li>Thẻ cha
+                                <ul>
+                                    <li>display: flex</li>
+                                    <li>justify-content:</li>
+                                    <li>align-item:</li>
+                                    <li>flex-wrap:</li>
+                                </ul>
+                            </li>
+                            <li>Thẻ con
+                                <ul>
+                                    <li>flex: set độ rộng cột</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <p>Grid</p>
+                        <ol>
+                            <li>Thẻ cha
+                                <ul>
+                                    <li>display: grid</li>
+                                    <li>grid-teamplate-columns: repeat(4, 1fs)</li>
+                                    <li>gap: khoảng cách các hàng, cột</li>
+                                </ul>
+                            </li>
+                            <li>Thẻ con
+                                <ul>
+                                    <li>gird-column: 2 / 4; gộp cột từ line số 2 đến line số 4</li>
+                                    <li>gird-columns: 2 / span 3; gộp 3 cột từ line số 2</li>
+                                    <li>grid-row: 2 / span 2; gộp 2 hàng từ line số 2</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <p>Reponsive: @media screen and (max-width:1200px){CSS khi màn hình nhỏ hơn 1200px}</p>
+                    </div>
+                </div>
             </div>
             <!-- //css -->
         </div>

@@ -89,3 +89,63 @@ css_h3[0].onclick = function () {
 contentCSS[0].onclick = function () {
     contentCSS[0].classList.toggle('show')
 }
+css_h3[1].onclick = function () {
+    contentCSS[1].classList.toggle('show')
+}
+contentCSS[1].onclick = function () {
+    contentCSS[1].classList.toggle('show')
+}
+css_h3[2].onclick = function () {
+    contentCSS[2].classList.toggle('show')
+}
+contentCSS[2].onclick = function () {
+    contentCSS[2].classList.toggle('show')
+}
+css_h3[3].onclick = function () {
+    contentCSS[3].classList.toggle('show')
+}
+contentCSS[3].onclick = function () {
+    contentCSS[3].classList.toggle('show')
+}
+css_h3[4].onclick = function () {
+    contentCSS[4].classList.toggle('show')
+}
+contentCSS[4].onclick = function () {
+    contentCSS[4].classList.toggle('show')
+}
+css_h3[5].onclick = function () {
+    contentCSS[5].classList.toggle('show')
+}
+contentCSS[5].onclick = function () {
+    contentCSS[5].classList.toggle('show')
+}
+css_h3[6].onclick = function () {
+    contentCSS[6].classList.toggle('show')
+}
+contentCSS[6].onclick = function () {
+    contentCSS[6].classList.toggle('show')
+}
+css_h3[7].onclick = function () {
+    contentCSS[7].classList.toggle('show')
+}
+contentCSS[7].onclick = function () {
+    contentCSS[7].classList.toggle('show')
+}
+css_h3[8].onclick = function () {
+    contentCSS[8].classList.toggle('show')
+}
+contentCSS[8].onclick = function () {
+    contentCSS[8].classList.toggle('show')
+}
+css_h3[9].onclick = function () {
+    contentCSS[9].classList.toggle('show')
+}
+contentCSS[9].onclick = function () {
+    contentCSS[9].classList.toggle('show')
+}
+css_h3[10].onclick = function () {
+    contentCSS[10].classList.toggle('show')
+}
+contentCSS[10].onclick = function () {
+    contentCSS[10].classList.toggle('show')
+}
