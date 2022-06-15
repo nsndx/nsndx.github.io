@@ -43,3 +43,9 @@ js_h3[6].onclick = function () {
 content[6].onclick = function () {
     content[6].classList.toggle('show')
 }
+js_h3[7].onclick = function () {
+    content[7].classList.toggle('show')
+}
+content[7].onclick = function () {
+    content[7].classList.toggle('show')
+}
