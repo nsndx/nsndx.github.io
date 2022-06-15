@@ -1,23 +1,7 @@
-.html_css {
+.js {
   padding: 20px 0;
 }
-.html_css .container {
-  display: flex;
-  flex-wrap: wrap;
-}
-.html,
-.css {
-  width: 50%;
-}
-.html {
-  padding-right: 10px;
-  border-right: 1px solid;
-}
-.css {
-  padding-left: 10px;
-}
-.html .show,
-.css .show {
+.js .show {
   display: block;
 }
 .content {
@@ -27,23 +11,19 @@
   border-bottom: 1px solid #aaa;
   padding: 5px 10px;
 }
-.html h3,
-.css h3 {
+h3 {
   cursor: pointer;
 }
-.html h1,
-.css h1 {
+h1 {
   background-color: var(--color2);
   text-align: center;
   box-shadow: 1px -3px 5px #000;
 }
-.html ol,
-.css ol {
+ol {
   padding: 0 20px;
   list-style-position: inside;
 }
-.html ul,
-.css ul {
+ul {
   list-style-type: disclosure-closed;
   padding: 0 10px;
 }

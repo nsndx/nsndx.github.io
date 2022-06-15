@@ -14,7 +14,7 @@
 
     <!-- style css -->
     <link rel="stylesheet" href="./css/base.css">
-
+    <link rel="stylesheet" href="./css/js.css">
     <link rel="stylesheet" href="./css/reponsive.css">
 
 </head>
@@ -52,7 +52,144 @@
         </div>
     </section>
     <!-- //carousel -->
+    <!-- content -->
+    <section class="js">
+        <div class="container">
+            <h1>JAVASCRIPT</h1>
+            <div class="main">
+                <h3>Khai báo</h3>
+                <div class="content">
+                    <p>internal, external</p>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Các loại DOM</h3>
+                <div class="content">
+                    <p>DOM selector - chọn thẻ</p>
+                    <ol>
+                        <li>document.getElementById("name id");</li>
+                        <li>document.querySelector()</li>
+                        <li>document.querySelectorAll()</li>
+                    </ol>
+                    <p>DOM html - lấy giá trị hoặc nội dung</p>
+                    <ol>
+                        <li>DOMselectors.innerHTML</li>
+                        <li>DOMselectors.value</li>
+                        <li>DOMselectors.innerText</li>
+                    </ol>
+                    <p>DOM event - tạo hành động cho thẻ</p>
+                    <ol>
+                        <li>onmouseover='name()' rê chuột vào rẽ chạy function name()</li>
+                        <li>onmouseleave='name()' rê chuột ra rẽ chạy function name()</li>
+                        <li>onclick='name()' click chuột vào rẽ chạy function name()</li>
+                        <li>onchange='name()' dùng cho thẻ select </li>
+                        <li>DOMselectors.onclick = function(){}</li>
+                        <li>DOMselectors.oninput = function(){}</li>
+                    </ol>
+                    <p>DOM style - tạo style cho thẻ</p>
+                    <ol>
+                        <li>DOMselectors.style.color = "blue"; </li>
+                    </ol>
+                    <p>DOM listerner - lắng nghe sự kiện</p>
+                    <ol>
+                        <li>DOMselectors.addEventListener('click', function(){code})</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="main">
+                <h3>In nội dung</h3>
+                <div class="content">
+                    <p>DOMselectors.innerHTML = 'Nội dung'</p>
+                    <p>document.write("nội dung")</p>
+                    <p>console.log('nội dung')</p>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Biến</h3>
+                <div class="content">
+                    <p>Biến để lưu các kiểu dữ liệu</p>
+                    <p>khai báo biến</p>
+                    <ol>
+                        <li>var tên biến=giá trị</li>
+                        <li>const tenBien = giá trị
+                            <ul>
+                                <li>là hằng số</li>
+                                <li>phải gán ngay giá trị</li>
+                                <li>chỉ có 1 giá trị không thể cập nhật</li>
+                            </ul>
+                        </li>
+                        <li>let tên biến=giá trị (tên biến không được lặp lại)</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Kiểu dữ liệu</h3>
+                <div class="content">
+                    <p>string - giá trị là chuỗi</p>
+                    <p>number - giá trị là số</p>
+                    <p>boolean - giá trị là true, false</p>
+                    <p>Symbol - tính duy nhất</p>
+                    <p>undefined - không có giá trị</p>
+                    <p>function(){}</p>
+                    <p>null - giá trị không có gì</p>
+                    <p>array - giá trị là [....]</p>
+                    <ol>
+                        <li>lấy giá trị 1 phần tử mảng - name[index]</li>
+                    </ol>
+                    <p>object
+                        giá trị là {name1:giá trị, name2: giá trị,.... }</p>
+                    <ol>
+                        <li>lấy key - Object.keys(name) - trả về mảng</li>
+                        <li>lấy giá trị đối tượng
+                            <ul>
+                                <li>name.name1</li>
+                                <li>name['name1']</li>
+                                <li>Object.values(name) - trả về mảng</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Toán tử</h3>
+                <div class="content">
+                    <p>số học: +, -, *, /, **, %, ++, --</p>
+                    <p>gán: =, +=, -=, *=, **=, /=, %= (x=x+y ~ x+=y)</p>
+                    <p>so sánh</p>
+                    <ol>
+                        <li>=== giống nhau</li>
+                        <li>== bằng nhau</li>
+                        <li>!= khác giá trị</li>
+                        <li>!== khác giá trị và kiểu dữ liệu</li>
+                    </ol>
+                    <p>logic</p>
+                    <ol>
+                        <li>&& và</li>
+                        <li>|| hoặc</li>
+                        <li>!(biểu thức) not-sửa sai thành đúng và ngược lại !(a>0)</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Câu lệnh điều kiện</h3>
+                <div class="content">
+                    <p>if{}, if{} else{}, if{} else if{} else{}</p>
+                    <p>switch (x) { <br>  case i: {code} <br> break; ... <br> default: {code} <br>break; <br>
+                    }</p>
+                    <ol>
+                        <li>Dùng trong trường hợp biết trước giá trị</li>
+                        <li>x: giá trị cần kiểm tra</li>
+                        <li>i là giá trị để so sánh với x</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //content -->
+
+
     <script src="./js/main.js"></script>
+    <script src="./js/js.js"></script>
 </body>
 
 </html>
