@@ -277,6 +277,56 @@
                     <p>Tạo hàm để tái sử dụng vào file method.js</p>
                 </div>
             </div>
+            <div class="main">
+                <h3>String</h3>
+                <div class="content">
+                    <p>name.toString - chuyển sang string</p>
+                    <p>name.length - tính chiều dài</p>
+                    <p>name.indexOf('giá trị cần tìm', index) </p>
+                    <ol>
+                        <li>tính ra vị trí của giá trị cần tìm từ index</li>
+                        <li>không tìm được giá trị là -1</li>
+                    </ol>
+                    <p>name.lastIndexOf('giá trị cần tìm') - tính ra vị trí cuối cùng</p>
+                    <p>name.search('giá trị cần tìm')</p>
+                    <p>name.slice(a, b) </p>
+                    <ol>
+                        <li>tạo ra biến mới từ vị trí a đến trước b</li>
+                        <li>giá trị biến name không thay đổi</li>
+                        <li>không có b thì cắt từ a đến hết chuỗi</li>
+                        <li>a, b là số âm khi tính ngược từ phải sang trái, a < b </li>
+                    </ol>
+                    <p>name.replace('giá trị trước thay', 'giá trị sau thay') - thay cho giá trị đầu tiên</p>
+                    <p>name.replace(/giá trị trước thay/g, 'giá trị sau thay') - thay toàn bộ</p>
+                    <p>name.toUpperCase() - in hoa</p>
+                    <p>name.toLowerCase() - chữ thường</p>
+                    <p>name.trim() - bỏ khoảng trắng </p>
+                    <p>name.split('X')</p>
+                    <ol>
+                        <li>cắt X khỏi name và trả về mảng</li>
+                        <li>X là điểm chung trong chuỗi</li>
+                    </ol>
+                    <p>name.charAt(vị trí) - lấy kí tự theo vị trí</p>
+                    <p>name[vị trí] - lấy kí tự theo vị trí</p>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Number</h3>
+                <div class="content">
+                    <p>Number(a) - chuyển string sang number</p>
+                    <p>name.toFixed(x) - làm tròn số, lấy x số thập phân và chuyển sang string</p>
+                    <p>number.toLocaleString('vn',{maximumFractionDigits: 2, minimumFractionDigits: 2}) - format số</p>
+                    <p>parseInt(a) - lấy số nguyên</p>
+                    <p>parseFloat(a) - lấy số thực</p>
+                    <p>Math.round(a) - làm tròn</p>
+                    <p>Math.abs(a) - giá trị tuyệt đối</p>
+                    <p>Math.floor(a) - làm tròn xuống</p>
+                    <p>Math.ceil(a) - làm tròn lên</p>
+                    <p>Math.random() - ra số ngẫu nhiên dạng 0,.......</p>
+                    <p>Math.min(a, b, c) - tìm số nhỏ nhất</p>
+                    <p>Math.max(a, b, c) - tìm số lớn nhất</p>
+                </div>
+            </div>
         </div>
     </section>
     <!-- //content -->

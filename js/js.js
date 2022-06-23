@@ -55,3 +55,15 @@ js_h3[8].onclick = function () {
 content[8].onclick = function () {
     content[8].classList.toggle('show')
 }
+js_h3[9].onclick = function () {
+    content[9].classList.toggle('show')
+}
+content[9].onclick = function () {
+    content[9].classList.toggle('show')
+}
+js_h3[10].onclick = function () {
+    content[10].classList.toggle('show')
+}
+content[10].onclick = function () {
+    content[10].classList.toggle('show')
+}
