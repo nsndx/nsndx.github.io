@@ -67,3 +67,21 @@ js_h3[10].onclick = function () {
 content[10].onclick = function () {
     content[10].classList.toggle('show')
 }
+js_h3[11].onclick = function () {
+    content[11].classList.toggle('show')
+}
+content[11].onclick = function () {
+    content[11].classList.toggle('show')
+}
+js_h3[12].onclick = function () {
+    content[12].classList.toggle('show')
+}
+content[12].onclick = function () {
+    content[12].classList.toggle('show')
+}
+js_h3[13].onclick = function () {
+    content[13].classList.toggle('show')
+}
+content[13].onclick = function () {
+    content[13].classList.toggle('show')
+}

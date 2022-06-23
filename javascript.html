@@ -327,6 +327,69 @@
                     <p>Math.max(a, b, c) - tìm số lớn nhất</p>
                 </div>
             </div>
+            <div class="main">
+                <h3>Array</h3>
+                <div class="content">
+                    <p>Array.isArray(name) - kiểm tra kiểu dữ liệu Array </p>
+                    <p>name.join('a') - a là ngăn cách các phần tử array khi chuyển sang chuỗi</p>
+                    <p>name.push(giá trị cần thêm) - thêm giá trị vào cuối mảng</p>
+                    <p>name.pop() - xoá giá trị ở cuối mảng</p>
+                    <p>name.unshift(giá trị cần thêm) - thêm giá trị vào đầu mảng</p>
+                    <p>name.shift() - xoá giá trị ở đầu mảng</p>
+                    <p>name.slice(a, b) </p>
+                    <ol>
+                        <li>tạo ra mảng mới từ vị trí a đến trước b</li>
+                        <li>biến name không thay đổi</li>
+                        <li>không có b thì cắt từ a đến hết chuỗi</li>
+                        <li>a, b là số âm khi tính ngược từ phải sang trái</li>
+                    </ol>
+                    <p>name.splice(a,b,c) </p>
+                    <ol>
+                        <li>a: vị trí bắt đầu thay đổi</li>
+                        <li>b: số giá trị muốn xoá từ a</li>
+                        <li>c: giá trị thêm vào từ a</li>
+                        <li>nếu chỉ có a,b xoá b phần tử từ vị trí a</li>
+                        <li>nếu chỉ có a xoá hết phần tử từ vị trí a</li>
+                    </ol>
+                    <p>array1.concat(array2) - nối mảng</p>
+                    <p>name.soft() - sắp xếp chữ cái từ a-z</p>
+                    <p>name.reverse() - sắp xếp chữ cái từ z-a</p>
+                    <p>name.soft(function(a,b){ return a-b}) - sắp xếp số theo thứ tự tăng dần</p>
+                    <p>name.soft(function(a,b){ return b-a}) - sắp xếp số theo thứ tự giảm dần</p>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Object</h3>
+                <div class="content">
+                    <p>name.keyname = value - Thêm giá trị mới</p>
+                    <p>name['keyname'] = value - Thêm giá trị mới</p>
+                    <p>delete name.keyname - xoá giá trị</p>
+                    <p>object constructor - Khởi tạo ra đối tượng bằng function có trước</p>
+                    <p>object prototype - thêm giá trị cho Hàm tạo sau khi có hàm tạo</p>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Buil in function</h3>
+                <div class="content">
+                    <p>alert(nội dung) - in ra thông báo là nội dung</p>
+                    <p>console - .log() .warn() .error() .table()</p>
+                    <p>confirm(nội dung) - in ra thông báo xác nhận có hay không: giá trị là true hoặc false</p>
+                    <p>prompt(nội dung) - in ra thông báo nhập liệu: giá trị nhập = giá trị</p>
+                    <p>setTimeout(name, thời gian) - Chạy ra hàm 'name' 1 lần sau thời gian đã set x000</p>
+                    <p>setInterval(name, thời gian) - Chạy ra hàm 'name' lặp lại liên tục sau thời gian đã set x000</p>
+                    <p>Hàm thời gian</p>
+                    <ol>
+                        <li>var time=new Date() (Bắt buộc) - Chạy ra giờ, ngày tháng năm,....</li>
+                        <li>time.getFullYear() - Chạy ra năm</li>
+                        <li>time.getMonth()+1 - Chạy ra tháng</li>
+                        <li>time.getDay() - Chạy ra thứ (0=Chủ nhật)</li>
+                        <li>time.getDate() - Chạy ra ngày</li>
+                        <li>time.getHours() - Chạy ra giờ</li>
+                        <li>time.getMinutes() - Chạy ra phút</li>
+                        <li>time.getSeconds() - Chạy ra giây</li>
+                    </ol>
+                </div>
+            </div>
         </div>
     </section>
     <!-- //content -->

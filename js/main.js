@@ -8,7 +8,7 @@ btn.addEventListener('click', function () {
         x.style.display = 'none'
         y.style.display = 'block'
         z.style.display = 'none'
-    } else{        
+    } else {
         x.style.display = 'flex'
         y.style.display = 'none'
         z.style.display = 'block'
@@ -36,6 +36,12 @@ function clock() {
     }
     document.getElementById('hours').innerHTML = hours + ':' + mimutes + ':' + seconds + 's'
 
+    if (date < 10) {
+        date = '0' + date
+    }
+    if (month < 10) {
+        month = '0' + month
+    }
     if (day == 1) {
         day = 'Chủ nhật'
         document.getElementById('day').innerHTML = day + ', ' + 'Ngày ' + date + ', ' + 'Tháng ' + month + ', ' + 'Năm ' + year
@@ -43,6 +49,6 @@ function clock() {
         document.getElementById('day').innerHTML = 'Thứ ' + day + ', ' + 'Ngày ' + date + ', ' + 'Tháng ' + month + ', ' + 'Năm ' + year
     }
 
-    setTimeout(clock, 1000)
+    setInterval(clock, 1000)
 }
 clock()
