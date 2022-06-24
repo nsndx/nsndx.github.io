@@ -67,6 +67,7 @@
 .cv_left .thongtin .main table .td1 {
   width: 80px;
 }
+
 .cv_content .cv_right {
   width: 60%;
   padding-left: 20px;
@@ -77,4 +78,13 @@
 .cv_content .cv_right .kinhnghiem,
 .cv_content .cv_right .duandalam {
   margin-bottom: 30px;
+}
+
+.cv_content .cv_right .duandalam .li a{
+  text-decoration: none;
+  color: var(--color1);
+  font-weight: 700;
+}
+.cv_content .cv_right .duandalam .li a:hover{
+  color: red;
 }
