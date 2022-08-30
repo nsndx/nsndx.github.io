@@ -43,17 +43,8 @@ header {
   line-height: 80px;
   border-radius: 50%;
   border: 3px solid var(--color2);
-  animation: logo 5s infinite;
 }
-@keyframes logo {
-  0% {
-  }
-  50% {
-    transform: translateX(100px);
-  }
-  100% {
-  }
-}
+
 .header_content .nav a {
   color: var(--color2);
   font-size: var(--font-size2);
