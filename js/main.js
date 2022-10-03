@@ -16,6 +16,7 @@ btn.addEventListener('click', function () {
 })
 
 // carousel
+
 function clock() {
     var time = new Date()
     var day = time.getDay() + 1
@@ -47,8 +48,6 @@ function clock() {
         document.getElementById('day').innerHTML = day + ', ' + 'Ngày ' + date + ', ' + 'Tháng ' + month + ', ' + 'Năm ' + year
     } else {
         document.getElementById('day').innerHTML = 'Thứ ' + day + ', ' + 'Ngày ' + date + ', ' + 'Tháng ' + month + ', ' + 'Năm ' + year
-    }
-
-    setInterval(clock, 1000)
+    }    
 }
-clock()
+setInterval(()=>clock(),1000)
